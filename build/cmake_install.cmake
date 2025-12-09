@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Yusuf/Desktop/Code/ConquestConsole/DebugOverlay
+# Install script for directory: C:/Users/Username/Desktop/TargetDir/ConquestConsole/DebugOverlay
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,32 +34,32 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Yusuf/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/Debug/DebugOverlay.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Username/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/Debug/DebugOverlay.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Yusuf/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/Release/DebugOverlay.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Username/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/Release/DebugOverlay.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Yusuf/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/MinSizeRel/DebugOverlay.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Username/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/MinSizeRel/DebugOverlay.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Yusuf/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/RelWithDebInfo/DebugOverlay.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/Users/Username/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/RelWithDebInfo/DebugOverlay.dll")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Yusuf/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/Debug/Injector.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Username/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/Debug/Injector.exe")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Yusuf/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/Release/Injector.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Username/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/Release/Injector.exe")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Yusuf/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/MinSizeRel/Injector.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Username/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/MinSizeRel/Injector.exe")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Yusuf/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/RelWithDebInfo/Injector.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Username/Desktop/Code/ConquestConsole/DebugOverlay/build/bin/RelWithDebInfo/Injector.exe")
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Yusuf/Desktop/Code/ConquestConsole/DebugOverlay/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/Username/Desktop/Code/ConquestConsole/DebugOverlay/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -75,6 +75,7 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Yusuf/Desktop/Code/ConquestConsole/DebugOverlay/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Username/Desktop/Code/ConquestConsole/DebugOverlay/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
+
