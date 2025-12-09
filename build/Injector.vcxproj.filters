@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Yusuf\Desktop\Code\ConquestConsole\DebugOverlay\injector\injector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Yusuf\Desktop\Code\ConquestConsole\DebugOverlay\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7EA9B6F3-37B3-3160-B01A-5CB39A73E084}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
